@@ -16,8 +16,8 @@ const SearchTable = () => {
             }}/>
 
 
-<table className="table table-bordered" style={{borderRadius:10}}>
-    <thead className="thead-dark">
+<table className="table table-bordered table table-striped" >
+    <thead className="table table-dark">
         <tr>
             <th>Root Number</th>
             <th>Bus Name</th>
