@@ -17,10 +17,11 @@ const SearchTable = () => {
 <table className="table table-bordered">
     <thead className="thead-dark">
         <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
-            <th>Gender</th>
+            <th>Root Number</th>
+            <th>Bus Name</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Intermediate stops</th>
 
         </tr>
     </thead>
@@ -29,7 +30,10 @@ const SearchTable = () => {
             if(searchTerm ===''){
                 return val;
             }else if(val.first_name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-            val.last_name.toLowerCase().includes(searchTerm.toLowerCase()) )
+            val.last_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            val.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            val.gender.toLowerCase().includes(searchTerm.toLowerCase()) || 
+            val.ma.toLowerCase().includes(searchTerm.toLowerCase()) )
             {
                 return val;
             }
@@ -39,6 +43,7 @@ const SearchTable = () => {
                 <td>{m.last_name}</td>
                 <td>{m.email}</td>
                 <td>{m.gender}</td>
+                <td>{m.ma}</td>
             </tr>
         ))}
     </tbody>
