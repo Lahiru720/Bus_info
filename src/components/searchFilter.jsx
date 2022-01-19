@@ -6,15 +6,17 @@ const SearchTable = () => {
     const [searchTerm, setsearchTerm] = useState("");
     return ( 
         <div className="container">
+            <h1 style={{marginTop:50, marginBottom:0, width:"100%",height:0,color: " #4394e0 "}}>Bus Info | Embilipitiya </h1>
             <input
             type="text"
-            placeholder="Search.." className="form-control" style={{marginTop:50, marginBottom:20, width:"40%"}}
+            placeholder="Where do you need to go .. ? |  Search anything !" className="form-control" style={{marginTop:150, marginBottom:40, width:"60%",height:60}}
             
             onChange={(e)=>{
               setsearchTerm(e.target.value);  
             }}/>
-            
-<table className="table table-bordered">
+
+
+<table className="table table-bordered" style={{borderRadius:10}}>
     <thead className="thead-dark">
         <tr>
             <th>Root Number</th>
@@ -37,6 +39,9 @@ const SearchTable = () => {
             {
                 return val;
             }
+
+           
+            
         }).map((m)=>(
             <tr key={m.id}>
                 <td>{m.first_name}</td>
