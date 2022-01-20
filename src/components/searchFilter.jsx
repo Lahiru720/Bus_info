@@ -6,6 +6,7 @@ const SearchTable = () => {
     const [searchTerm, setsearchTerm] = useState("");
     return ( 
         <div className="container">
+            <img src=''/>
             <h1 style={{marginTop:50, marginBottom:0, width:"100%",height:0,color: " #4394e0 "}}>Bus Info | Embilipitiya </h1>
             <input
             type="text"
@@ -16,7 +17,7 @@ const SearchTable = () => {
             }}/>
 
 
-<table className="table table-bordered table table-striped" >
+<table className="table table-bordered table table-striped table-hover" >
     <thead className="table table-dark">
         <tr>
             <th>Root Number</th>
