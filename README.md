@@ -10,7 +10,8 @@ This project developed for store Embilipitiya bus root's time and everything.
     2. The passenger can find all the places that bus is going
     
 ## Deployment
-
+    first clone this repository on your computer.
+    After install npm on your computer,then run npm start
 
 ## Feedback
     Ask a question on Stackoverflow
@@ -19,7 +20,7 @@ This project developed for store Embilipitiya bus root's time and everything.
     File an issue
     Follow @Lahiru720 and let me know what you think!
 
-See also my linked in profile.
+See also my linked in profile.[LinkedIn](https://www.linkedin.com/in/lahirurj/)
 
 ## Related projects
 
