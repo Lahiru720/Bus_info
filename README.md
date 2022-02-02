@@ -1,11 +1,11 @@
 
-## 🚀 The Ripository
+##  The Ripository
 This repository is where i develop the Advenced text editor as a inidividual project. this project develop for improve my javascript -> (React) Knowledge.This source code is avaliable to everyone under the MIT License.
 This project developed for store Embilipitiya bus root's time and everything.
 
-## 🚀 Screenshots
+##  Screenshots
 
-## 🚀 Features
+##  Features
     1. The passenger can find the bus starts time, destination time.
     2. The passenger can find all the places that bus is going
     
