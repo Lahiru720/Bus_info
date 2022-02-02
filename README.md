@@ -32,7 +32,7 @@ See also my linked in profile.[LinkedIn](https://www.linkedin.com/in/lahirurj/)
 ## License
 Copyright © Lahiru Rajapakshe. All rights reserved.
 
-Licensed under the MIT license.
+Licensed under the [MIT](https://github.com/Lahiru720/Bus_info/blob/master/LICENSE) license.
 
 
 ## 🔗 Links
