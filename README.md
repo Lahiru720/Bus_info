@@ -30,7 +30,7 @@ See also my linked in profile.[LinkedIn](https://www.linkedin.com/in/lahirurj/)
     Employee Management System For Wickrama hardware Embilipitiya | Java
 
 ## License
-Copyright © Lahiru Rajapakshe. All rights reserved.
+Copyright © Lahiru Rajapakshe | Isuru Madushan. All rights reserved.
 
 Licensed under the [MIT](https://github.com/Lahiru720/Bus_info/blob/master/LICENSE) license.
 
