@@ -1,22 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-import SearchTable from './components/searchFilter';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from "react-router-dom";
+import Home from './components/Home';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <SearchTable/>
-     <Footer/>
-
-     <div className="page-container">
-<div className="content-wrapper">
-
-</div>
-     </div>
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path='/' exact component={Home} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
